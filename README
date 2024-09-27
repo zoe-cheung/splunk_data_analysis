@@ -1,0 +1,10 @@
+Purpose: Explore open-source attack datasets
+
+
+How the datasets are obtain? 
+- brew install git-lfs
+- git lfs install --skip-smudge
+- git clone https://github.com/splunk/attack_data
+- cd attack_data
+- git lfs pull --include=datasets/attack_techniques/T1003.001/atomic_red_team/ 
+
